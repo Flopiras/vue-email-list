@@ -13,8 +13,7 @@ const app = Vue.createApp({
         for(let i = 0; i < 10; i++){
             axios.get(endpoint)
             .then(res => {
-                console.log(res.data.response)
-                
+                this.mails.push(res.data.response);
             })
         }
             
