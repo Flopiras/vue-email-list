@@ -35,5 +35,3 @@ const app = Vue.createApp({
 });
 
 app.mount('#root');
-
-//io chiedo una mail al programma. se la mail non è presente nell'array, la pusho. se l'array non ha 10 elementi, chiedo una mail al programma.
